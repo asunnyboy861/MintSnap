@@ -15,10 +15,10 @@
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/MintSnap/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/MintSnap/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/MintSnap/privacy.html | ⏳ Pending |
-| Terms of Use | https://asunnyboy861.github.io/MintSnap/terms.html | ⏳ Pending |
+| Landing Page | https://asunnyboy861.github.io/MintSnap/ | ✅ Active |
+| Support | https://asunnyboy861.github.io/MintSnap/support.html | ✅ Active |
+| Privacy Policy | https://asunnyboy861.github.io/MintSnap/privacy.html | ✅ Active |
+| Terms of Use | https://asunnyboy861.github.io/MintSnap/terms.html | ✅ Active |
 
 ## Repository Structure
 

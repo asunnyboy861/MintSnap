@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MintSnap - Landing</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #1a1a1a; background: #fff; }
+        .landing-hero { text-align: center; padding: 80px 20px 60px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: #fff; }
+        .landing-hero h1 { font-size: 3em; margin: 0 0 16px; color: #fff; border: none; }
+        .tagline { font-size: 1.4em; opacity: 0.9; margin: 0 0 32px; }
+        .download-btn { display: inline-block; background: #000; color: #fff !important; padding: 14px 32px; border-radius: 12px; font-size: 1.1em; font-weight: 600; text-decoration: none; transition: transform 0.2s, box-shadow 0.2s; }
+        .download-btn:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0,0,0,0.3); text-decoration: none; }
+        .features { max-width: 900px; margin: 0 auto; padding: 60px 20px; text-align: center; }
+        .features h2 { font-size: 2em; margin-bottom: 40px; color: #1a1a1a; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .feature-card { background: #f8f9fa; padding: 30px 20px; border-radius: 16px; transition: transform 0.2s; }
+        .feature-card:hover { transform: translateY(-4px); }
+        .feature-icon { font-size: 2.5em; margin-bottom: 12px; }
+        .feature-card h3 { margin: 0 0 8px; color: #1a1a1a; }
+        .feature-card p { color: #666; margin: 0; }
+        .pricing { max-width: 900px; margin: 0 auto; padding: 60px 20px; text-align: center; background: #f8f9fa; }
+        .pricing h2 { font-size: 2em; margin-bottom: 40px; color: #1a1a1a; }
+        .pricing-grid { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+        .pricing-card { background: #fff; padding: 30px 40px; border-radius: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.08); min-width: 220px; }
+        .pricing-card.featured { border: 2px solid #667eea; }
+        .pricing-card h3 { margin: 0 0 12px; color: #1a1a1a; }
+        .price { font-size: 2.5em; font-weight: 700; margin: 0; color: #1a1a1a; }
+        .price span { font-size: 0.4em; color: #666; }
+        .price-note { color: #666; margin: 8px 0 0; font-size: 0.9em; }
+        .policy-links { max-width: 900px; margin: 0 auto; padding: 60px 20px; text-align: center; }
+        .policy-links h2 { font-size: 2em; margin-bottom: 30px; color: #1a1a1a; }
+        .policy-grid { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .policy-card { background: #f8f9fa; padding: 16px 28px; border-radius: 12px; color: #0066cc; text-decoration: none; font-weight: 500; transition: background 0.2s; }
+        .policy-card:hover { background: #e8eaed; text-decoration: none; }
+        .footer { text-align: center; padding: 40px 20px; border-top: 1px solid #eee; color: #999; font-size: 0.85em; }
+        .footer a { color: #0066cc; }
+        @media (max-width: 600px) { .landing-hero h1 { font-size: 2em; } .tagline { font-size: 1.1em; } .pricing-grid { flex-direction: column; align-items: center; } }
+        
+    </style>
+</head>
+<body>
+<div class="landing-hero">
+        <h1>MintSnap</h1>
+        <p class="tagline">The honest card scanner. Snap a card, see what it's really worth — real sold prices, graded tiers, and confidence you can trust.</p>
+        <a id="download-btn" href="https://apps.apple.com/us/app/id[APP_STORE_ID]?mt=8" class="download-btn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" style="vertical-align:middle;margin-right:8px">
+                <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+            </svg>
+            <span id="btn-text">Download on the App Store</span>
+        </a>
+    </div>
+
+    <div class="features">
+        <h2>Why MintSnap?</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">⚡</div>
+                <h3>3-Second Scan to Price</h3>
+                <p>Aim, snap, done. On-device recognition with cloud AI fallback identifies your card and pulls real market prices in under 3 seconds — official card image always shown for verification.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">🩺</div>
+                <h3>Price Health System</h3>
+                <p>Industry first: every price is cross-checked across sources with outlier removal, so you get HIGH/MEDIUM/LOW confidence labels — never a silent, made-up number.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">💎</div>
+                <h3>Graded Tiers & Cert Verify</h3>
+                <p>Six tier prices (RAW to PSA 10) with slab auto-detection, plus one-tap cert verification against official PSA/BGS/CGC lookups and a grading ROI calculator.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricing">
+        <h2>Pricing</h2>
+        <div class="pricing-grid">
+            <div class="pricing-card featured">
+                <h3>Monthly</h3>
+                <p class="price">$7.99<span>/month</span></p>
+                <p class="price-note">Auto-renewing, cancel anytime</p>
+            </div>
+            <div class="pricing-card">
+                <h3>Yearly</h3>
+                <p class="price">$49.99<span>/year</span></p>
+                <p class="price-note">Save 50% compared to monthly</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="policy-links">
+        <h2>Legal & Support</h2>
+        <div class="policy-grid">
+            <a href="support.html" class="policy-card">Support Center</a>
+            <a href="privacy.html" class="policy-card">Privacy Policy</a>
+            <a href="terms.html" class="policy-card">Terms of Use</a>
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        var btn = document.getElementById('download-btn');
+        var btnText = document.getElementById('btn-text');
+        if (btn && btn.href && btn.href.indexOf('[APP_STORE_ID]') !== -1) {
+            btn.href = '#';
+            btn.onclick = function(e) { e.preventDefault(); alert('Coming Soon! This app will be available on the App Store soon.'); };
+            if (btnText) btnText.textContent = 'Coming Soon to the App Store';
+            btn.style.background = 'rgba(255,255,255,0.2)';
+            btn.style.border = '2px dashed rgba(255,255,255,0.6)';
+        }
+    })();
+    </script>
+
+    <div class="footer">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> MintSnap. All rights reserved.</p>
+        <p>Contact: <a href="mailto:iocompile67692@gmail.com">iocompile67692@gmail.com</a></p>
+    </div>
+</body>
+</html>
