@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BF96E321A3552617732303C /* StoreService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB5777CAD1BF81ECC47AA23E /* StoreService.swift */; };
+		116056088D8960BB469B6402 /* ResultCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A7011DE804E11948BB3E9C /* ResultCardView.swift */; };
+		1B9564A87DD45C0FB68EE0D5 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F0E4BA0E1C29ED71CBB99F /* ScanViewModel.swift */; };
+		31BEEFC098F81492F134F643 /* CertVerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5743F3F6E7DC6116B5B30BF /* CertVerifyView.swift */; };
+		3845E1176BACE03A2D103DF4 /* PriceServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A00D401FE0D2BE78EF74347 /* PriceServices.swift */; };
+		54A0241198E54D152D996981 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2050701684FC28275A877225 /* RootTabView.swift */; };
+		644B7A272558EEC14EE0F362 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B434EFD966863C687BECFE77 /* Assets.xcassets */; };
+		6C5B0FB4E440A34023E62A0C /* ROICalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E75863585FA3692FDA7A1A1 /* ROICalculatorView.swift */; };
+		6F9A361F5B5D05064703C142 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB5C0B76E8DC01AA9257BBA /* PaywallView.swift */; };
+		7334E8A43896A04A67212BF2 /* MintSnapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DF7E3997B415AD8C6C5914 /* MintSnapApp.swift */; };
+		7CCF64D959A7BCB1ED3F639D /* BinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7A12295D8FBE80925EEA15 /* BinderView.swift */; };
+		8D01F5079686BCF76ED98B81 /* AlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7685FF549EB609543437311F /* AlertsView.swift */; };
+		9DF9F9DC43A7177B0352BB09 /* QuotaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 240941397D6A97738EC31AFE /* QuotaService.swift */; };
+		A52F9D1250D13D8361D03C49 /* InsightsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A26E50DCD5F17505BEEFC89 /* InsightsService.swift */; };
+		B37AA2B2DDEAA73001F640A9 /* AlertEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E6563F66AF3EDE57D8602 /* AlertEngine.swift */; };
+		B40663ED17B331E8C6B4ECF3 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6D7AD096A9EAE288B4E26E /* CameraView.swift */; };
+		D244C5535F831003750CC04F /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9CE0645351E3C74F0E211 /* ScanView.swift */; };
+		DC548BA890B070563AEEC1EE /* GLMProxySecret.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2DBE7DBF3DEAC0EDD04C27FE /* GLMProxySecret.txt */; };
+		E1BC54249898084E72DC2E6F /* GLMClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C242436AEDA4F3A5E7320FB /* GLMClient.swift */; };
+		EFC02BB5FA35C7B9A1648627 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F03E5F6F5BC0EAA6F416AD /* Models.swift */; };
+		F1987D3C2582F752928C3D2F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = FE1EEA7C1CAB3617C21B02D9 /* PrivacyInfo.xcprivacy */; };
+		F61850F1D6DED161BCB1D824 /* ScanEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C4BCD176B22F7E979D1CDB /* ScanEngine.swift */; };
+		F95E74A4AF778DAD213E7367 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77407C129AA88B75E9420E20 /* SettingsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2050701684FC28275A877225 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		240941397D6A97738EC31AFE /* QuotaService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotaService.swift; sourceTree = "<group>"; };
+		2DBE7DBF3DEAC0EDD04C27FE /* GLMProxySecret.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = GLMProxySecret.txt; sourceTree = "<group>"; };
+		3DB5C0B76E8DC01AA9257BBA /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		3E7A12295D8FBE80925EEA15 /* BinderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinderView.swift; sourceTree = "<group>"; };
+		45AB4F0241D93E2BC8EC1D87 /* MintSnap.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MintSnap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A7011DE804E11948BB3E9C /* ResultCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCardView.swift; sourceTree = "<group>"; };
+		5C242436AEDA4F3A5E7320FB /* GLMClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GLMClient.swift; sourceTree = "<group>"; };
+		67C4BCD176B22F7E979D1CDB /* ScanEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanEngine.swift; sourceTree = "<group>"; };
+		7685FF549EB609543437311F /* AlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsView.swift; sourceTree = "<group>"; };
+		77407C129AA88B75E9420E20 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		82F03E5F6F5BC0EAA6F416AD /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		8E75863585FA3692FDA7A1A1 /* ROICalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ROICalculatorView.swift; sourceTree = "<group>"; };
+		98F0E4BA0E1C29ED71CBB99F /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		9A00D401FE0D2BE78EF74347 /* PriceServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceServices.swift; sourceTree = "<group>"; };
+		9A26E50DCD5F17505BEEFC89 /* InsightsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightsService.swift; sourceTree = "<group>"; };
+		A4A9CE0645351E3C74F0E211 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		B434EFD966863C687BECFE77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5743F3F6E7DC6116B5B30BF /* CertVerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertVerifyView.swift; sourceTree = "<group>"; };
+		D4DF7E3997B415AD8C6C5914 /* MintSnapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintSnapApp.swift; sourceTree = "<group>"; };
+		DB6D7AD096A9EAE288B4E26E /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		EA8E6563F66AF3EDE57D8602 /* AlertEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertEngine.swift; sourceTree = "<group>"; };
+		EB5777CAD1BF81ECC47AA23E /* StoreService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreService.swift; sourceTree = "<group>"; };
+		F785532DCC83A5E93690398C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FE1EEA7C1CAB3617C21B02D9 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1CF0B849F7C4688E245B14AC /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				EB5777CAD1BF81ECC47AA23E /* StoreService.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		2EC9A15943996F345C67C105 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D4DF7E3997B415AD8C6C5914 /* MintSnapApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		53F3336242E71543752CE024 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82F03E5F6F5BC0EAA6F416AD /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		57152F24CECC2BB96EC5A40B /* Price */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E6563F66AF3EDE57D8602 /* AlertEngine.swift */,
+				9A00D401FE0D2BE78EF74347 /* PriceServices.swift */,
+			);
+			path = Price;
+			sourceTree = "<group>";
+		};
+		6A02655E2969936A7B4FF75D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AB4F0241D93E2BC8EC1D87 /* MintSnap.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B9A909C3616065F3FEE05E /* Scan */ = {
+			isa = PBXGroup;
+			children = (
+				DB6D7AD096A9EAE288B4E26E /* CameraView.swift */,
+				67C4BCD176B22F7E979D1CDB /* ScanEngine.swift */,
+				98F0E4BA0E1C29ED71CBB99F /* ScanViewModel.swift */,
+			);
+			path = Scan;
+			sourceTree = "<group>";
+		};
+		AD37520E454BA50AD82921B9 /* AI */ = {
+			isa = PBXGroup;
+			children = (
+				5C242436AEDA4F3A5E7320FB /* GLMClient.swift */,
+				2DBE7DBF3DEAC0EDD04C27FE /* GLMProxySecret.txt */,
+				9A26E50DCD5F17505BEEFC89 /* InsightsService.swift */,
+				240941397D6A97738EC31AFE /* QuotaService.swift */,
+			);
+			path = AI;
+			sourceTree = "<group>";
+		};
+		B72C87CA56542E575DC54E92 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7685FF549EB609543437311F /* AlertsView.swift */,
+				3E7A12295D8FBE80925EEA15 /* BinderView.swift */,
+				B5743F3F6E7DC6116B5B30BF /* CertVerifyView.swift */,
+				3DB5C0B76E8DC01AA9257BBA /* PaywallView.swift */,
+				52A7011DE804E11948BB3E9C /* ResultCardView.swift */,
+				8E75863585FA3692FDA7A1A1 /* ROICalculatorView.swift */,
+				2050701684FC28275A877225 /* RootTabView.swift */,
+				A4A9CE0645351E3C74F0E211 /* ScanView.swift */,
+				77407C129AA88B75E9420E20 /* SettingsView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D37EFD657E92FC1257C8400C = {
+			isa = PBXGroup;
+			children = (
+				E65AA4753E17D74F726F55C3 /* MintSnap */,
+				6A02655E2969936A7B4FF75D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E65AA4753E17D74F726F55C3 /* MintSnap */ = {
+			isa = PBXGroup;
+			children = (
+				B434EFD966863C687BECFE77 /* Assets.xcassets */,
+				F785532DCC83A5E93690398C /* Info.plist */,
+				FE1EEA7C1CAB3617C21B02D9 /* PrivacyInfo.xcprivacy */,
+				AD37520E454BA50AD82921B9 /* AI */,
+				2EC9A15943996F345C67C105 /* App */,
+				B72C87CA56542E575DC54E92 /* Features */,
+				53F3336242E71543752CE024 /* Models */,
+				57152F24CECC2BB96EC5A40B /* Price */,
+				87B9A909C3616065F3FEE05E /* Scan */,
+				1CF0B849F7C4688E245B14AC /* Store */,
+			);
+			path = MintSnap;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D974276727DE4218EF624A6F /* MintSnap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426C6FFE179A8C0FE43A20B1 /* Build configuration list for PBXNativeTarget "MintSnap" */;
+			buildPhases = (
+				890436F8CC34CD072CD43308 /* Sources */,
+				B2FB992C336008A57BF98CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MintSnap;
+			packageProductDependencies = (
+			);
+			productName = MintSnap;
+			productReference = 45AB4F0241D93E2BC8EC1D87 /* MintSnap.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3179722847E67D01A053EB75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D974276727DE4218EF624A6F = {
+						DevelopmentTeam = JP4TN5PTS3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 49C4872FB4D0BE1FC6E3D419 /* Build configuration list for PBXProject "MintSnap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D37EFD657E92FC1257C8400C;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D974276727DE4218EF624A6F /* MintSnap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2FB992C336008A57BF98CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644B7A272558EEC14EE0F362 /* Assets.xcassets in Resources */,
+				DC548BA890B070563AEEC1EE /* GLMProxySecret.txt in Resources */,
+				F1987D3C2582F752928C3D2F /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		890436F8CC34CD072CD43308 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37AA2B2DDEAA73001F640A9 /* AlertEngine.swift in Sources */,
+				8D01F5079686BCF76ED98B81 /* AlertsView.swift in Sources */,
+				7CCF64D959A7BCB1ED3F639D /* BinderView.swift in Sources */,
+				B40663ED17B331E8C6B4ECF3 /* CameraView.swift in Sources */,
+				31BEEFC098F81492F134F643 /* CertVerifyView.swift in Sources */,
+				E1BC54249898084E72DC2E6F /* GLMClient.swift in Sources */,
+				A52F9D1250D13D8361D03C49 /* InsightsService.swift in Sources */,
+				7334E8A43896A04A67212BF2 /* MintSnapApp.swift in Sources */,
+				EFC02BB5FA35C7B9A1648627 /* Models.swift in Sources */,
+				6F9A361F5B5D05064703C142 /* PaywallView.swift in Sources */,
+				3845E1176BACE03A2D103DF4 /* PriceServices.swift in Sources */,
+				9DF9F9DC43A7177B0352BB09 /* QuotaService.swift in Sources */,
+				6C5B0FB4E440A34023E62A0C /* ROICalculatorView.swift in Sources */,
+				116056088D8960BB469B6402 /* ResultCardView.swift in Sources */,
+				54A0241198E54D152D996981 /* RootTabView.swift in Sources */,
+				F61850F1D6DED161BCB1D824 /* ScanEngine.swift in Sources */,
+				D244C5535F831003750CC04F /* ScanView.swift in Sources */,
+				1B9564A87DD45C0FB68EE0D5 /* ScanViewModel.swift in Sources */,
+				F95E74A4AF778DAD213E7367 /* SettingsView.swift in Sources */,
+				0BF96E321A3552617732303C /* StoreService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05DDD45A1444C1B44AB3A46B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MintSnap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+		2D4D8CF99751A6DAB11199BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MintSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.MintSnap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DE8FCEFF48567684D85876D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = JP4TN5PTS3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MintSnap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		7B894C956912E10C6BDA95BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = MintSnap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zzoutuo.MintSnap;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426C6FFE179A8C0FE43A20B1 /* Build configuration list for PBXNativeTarget "MintSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4D8CF99751A6DAB11199BE /* Debug */,
+				7B894C956912E10C6BDA95BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		49C4872FB4D0BE1FC6E3D419 /* Build configuration list for PBXProject "MintSnap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DE8FCEFF48567684D85876D /* Debug */,
+				05DDD45A1444C1B44AB3A46B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3179722847E67D01A053EB75 /* Project object */;
+}

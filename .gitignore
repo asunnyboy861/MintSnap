@@ -1,0 +1,13 @@
+.DS_Store
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+icon_raw.png
+icon_1024.png
+MintSnap/AI/GLMProxySecret.txt
+MintSnap/Price/PriceChartingSecret.txt
+.env
+keytext*.md
+COMPETITOR_REPORT.md
+improvement_plan_*.md
